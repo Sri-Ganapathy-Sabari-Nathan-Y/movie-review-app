@@ -7,7 +7,7 @@ import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename="/movie-review-app">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
